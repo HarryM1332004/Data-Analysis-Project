@@ -32,7 +32,7 @@ for i in variables:
         p_values.loc[i, j] = p
 
 
-# 印出結果
+# Printing results on terminal
 print("=== R-values (Pearson correlation) ===")
 print(r_values.round(3))
 print("\n=== T-values ===")
